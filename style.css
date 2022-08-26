@@ -1,0 +1,89 @@
+h1,h2,h3 {
+  font-family: 'Minecraft', sans-serif;
+  color: white;
+}
+
+h2{
+  color: gray;
+}
+
+body{
+  background-color: black;
+}
+
+.Center{
+  padding-top: 130px;
+  text-align: center;
+}
+
+
+.Notification{
+  padding-right: 15px;
+  text-align: right;
+  position:absolute;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+.container {
+  display: inline-block;
+}
+
+.typed-out{
+    overflow: hidden;
+    border-right: .15em solid gray;
+    white-space: nowrap;
+    /* font-size: 1.6rem; */
+    width: 0;
+    animation: typing 1s forwards;
+}
+
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
+.more {
+  animation: fadein 7s forwards;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+}
+
+.fade-in-image { animation: fadein 3s; }
+
+
+a {
+    color: grey;
+    text-decoration: none;
+}
+
+a:hover {
+    color:white;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+
+.footer {
+  font-size: 25px;
+  opacity: 25%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
